@@ -2,11 +2,10 @@
 
 
 create_directory() {
-	mkdir demo
+        mkdir demo
 }
 if ! create_directory; then
-	echo "The code is being exited as the directory already exists"
-	exit 1
+        echo "The code is being exited as the directory already exists"
+        exit 1
 fi
 echo "This should not work beacause the code is interrupted"
-
